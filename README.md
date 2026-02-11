@@ -1,5 +1,5 @@
-📚 Aerospace RAG System – FAA Document Question Answering
-🚀 Overview
+## 📚 Aerospace RAG System – FAA Document Question Answering
+
 
 This project implements a Retrieval-Augmented Generation (RAG) system designed to answer technical questions from FAA aerospace regulatory documents.
 
@@ -7,7 +7,9 @@ Instead of relying purely on a language model’s internal knowledge, this syste
 
 The system reduces hallucination by enforcing context-based answering.
 
-🧠 Problem Statement
+---
+
+## 🧠 Problem Statement
 
 Large Language Models tend to:
 
@@ -31,7 +33,9 @@ If the answer is not found in the retrieved context, the system responds with:
 
 "I could not find this information in the provided documents."
 
-🏗️ Architecture
+---
+
+## 🏗️ Architecture
 
 User Question
 ⬇
@@ -45,7 +49,9 @@ Mistral-7B-Instruct LLM
 ⬇
 Final Answer
 
-🔧 Tech Stack
+---
+
+## 🔧 Tech Stack
 
 LangChain
 
@@ -61,7 +67,9 @@ PyPDF for document loading
 
 Google Colab (T4 GPU, 4-bit quantization)
 
-📂 Documents Used
+---
+
+## 📂 Documents Used
 
 The system indexes multiple FAA Advisory Circulars, including:
 
@@ -79,7 +87,9 @@ Thermal Fatigue Documentation
 
 Each document is categorized and chunked before embedding.
 
-🔍 Key Features
+---
+
+## 🔍 Key Features
 
 Semantic search using dense embeddings
 
@@ -95,7 +105,9 @@ Category-based filtering support
 
 Adjustable similarity score threshold
 
-⚙️ Retrieval Strategy
+---
+
+## ⚙️ Retrieval Strategy
 
 Chunk size optimized for technical PDF structure
 
@@ -105,7 +117,9 @@ Optional similarity score threshold filtering
 
 Metadata-based filtering (e.g., category: Inspection, Structures, Damage)
 
-🛑 Hallucination Control
+---
+
+## 🛑 Hallucination Control
 
 The system enforces a strict instruction:
 
@@ -120,7 +134,9 @@ Domain-grounded answers
 
 Reliable regulatory responses
 
-🧪 Example Query
+---
+
+## 🧪 Example Query
 
 Question:
 What are acceptable methods for aircraft crack inspection?
