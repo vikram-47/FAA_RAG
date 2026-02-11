@@ -87,6 +87,8 @@ Thermal Fatigue Documentation
 
 Each document is categorized and chunked before embedding.
 
+find the documents from the link:- https://www.faa.gov/regulations_policies/advisory_circulars
+
 ---
 
 ## 🔍 Key Features
@@ -143,4 +145,3 @@ What are acceptable methods for aircraft crack inspection?
 
 Answer (Generated from FAA documents):
 Visual inspection, ultrasonic inspection, radiography, and eddy current inspection.
-
